@@ -23,7 +23,7 @@ main {
 .mainContainer {
     display: flex;
     flex-direction: column;
-    background:#333
+    background:#333;
 }
 .wrapper {
     display: flex;
@@ -47,7 +47,7 @@ main {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background:blue;
+  background:#333;
 }
 .topnav {
 
@@ -56,13 +56,13 @@ main {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #04AA6D;
-  color: black;
+  background-color: #C4A484;
+  color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #724e2c;
   color: white;
 }
 .centered {
