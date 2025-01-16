@@ -65,9 +65,15 @@ main {
   background-color: #724e2c;
   color: white;
 }
+<<<<<<< HEAD
+/* Add a color to the Botton */
+.Botton {
+color: white;
+=======
 .centered {
     text-align:center;
 }
 .txt-white {
     color:white;
+>>>>>>> 9070b5dec101d7482e9552b8ca00e2733a2053fc
 }
