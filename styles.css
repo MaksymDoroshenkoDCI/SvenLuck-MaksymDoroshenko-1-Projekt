@@ -1,0 +1,19 @@
+* {
+    margin: o;
+    padding:0;
+}
+aside {
+   flex-grow:1;
+    
+    background: green;
+    height: 100vh;
+}
+main {
+  
+   flex-grow: 3;
+    background:blue;
+    height:100vh;
+}
+.wrapper {
+    display: flex;
+}
