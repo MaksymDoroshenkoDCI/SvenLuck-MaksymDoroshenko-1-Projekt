@@ -2,17 +2,23 @@
     margin: o;
     padding:0;
 }
-aside {
-   flex-grow:1;
+h1 {
+    font-size : 3em;
+
     
-    background: green;
-    height: 100vh;
+}
+aside {
+    padding:15px 10px;
+   flex-grow:1;
+    min-width: 250px;
+    background: #724e2c;
+    min-height: 100vh;
 }
 main {
-  
+    padding:15px 10px;
    flex-grow: 3;
-    background:blue;
-    height:100vh;
+    background:#C4A484;
+    min-height:100vh;
 }
 .mainContainer {
     display: flex;
@@ -22,7 +28,12 @@ main {
 .wrapper {
     display: flex;
 }
-* Add a black background color to the top navigation */
+.wrapper p {
+   margin-left:auto;
+   margin-right:auto;
+   font-size:1.6em;
+ 
+}
 .topnav {
     flex-grow: 4;
   background: #333;
@@ -53,4 +64,10 @@ main {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+.centered {
+    text-align:center;
+}
+.txt-white {
+    color:white;
 }
